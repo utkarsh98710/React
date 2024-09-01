@@ -18,7 +18,19 @@ function App() {
   const addValue = ()=>{
     // console.log("Value clicked",counter);
     // counter=counter+1;
-   setCounter(counter+1);
+
+  //   // React interView questions
+  //  setCounter(counter+1);
+  //  setCounter(counter+1);
+  //  setCounter(counter+1);
+  //  setCounter(counter+1);
+
+  setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
+  setCounter(prevCounter => prevCounter+1)
+
   }
 
   const removeValue=()=>{
